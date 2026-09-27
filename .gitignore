@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Outputs written by the figure scripts
+paper_figures/figure1/
+paper_figures/figure2/
+paper_figures/figure3/
+paper_figures/figure4/
+paper_figures/zenodo_repository/
+examples/*.png
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

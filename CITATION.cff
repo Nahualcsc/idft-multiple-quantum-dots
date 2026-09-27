@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the dataset."
+title: "i-DFT for multiple quantum dots: spectra and transmission"
+type: software
+license: MIT
+authors:
+  - family-names: Sobrino
+    given-names: N.
+    affiliation: "The Abdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy"
+    email: nsobrino@ictp.it
+  - family-names: Kurth
+    given-names: S.
+    affiliation: "Universidad del País Vasco UPV/EHU, IKERBASQUE and DIPC, San Sebastián, Spain"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20154932
+    description: "Numerical data for the paper (all versions)"
+keywords:
+  - density functional theory
+  - i-DFT
+  - quantum dots
+  - Kondo effect
+  - Coulomb blockade
+  - transmission
+  - numerical renormalization group
+preferred-citation:
+  type: article
+  title: "Spectral and transmission properties of multiple correlated quantum dots made simple"
+  authors:
+    - family-names: Sobrino
+      given-names: N.
+    - family-names: Kurth
+      given-names: S.
+  status: submitted

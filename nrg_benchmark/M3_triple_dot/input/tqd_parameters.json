@@ -1,0 +1,35 @@
+{
+  "system": "M = 3 quantum dots without interdot hopping, Fig. 3(b) of the manuscript",
+  "units": "energies in units of gamma, the full level width of each dot (gamma = 2 pi V^2 rho_0); flat conduction band of half-width D = gamma / gamma_over_D",
+  "note": "record of the production settings; ../scripts/01_run_nrg_tqd.py has the same values as its defaults (see cluster_run.md)",
+  "model": {
+    "U_over_gamma": [4.0, 6.0, 8.0],
+    "Uij_over_gamma": 2.0,
+    "v_over_gamma": -10.0,
+    "T_over_gamma": 1e-05,
+    "gamma_over_D": 0.01,
+    "leads": "each dot coupled to its own reservoir, Gamma = gamma * identity; interaction U_i n_i,up n_i,dn + U_ij n_i n_j for all pairs"
+  },
+  "nrg_spectra": {
+    "comment": "spectra at v = v_over_gamma; nshells = ceil(2 ln(0.5 / (1e-3 T/D)) / ln Lambda) + 2 = 19",
+    "Lambda": 16.0,
+    "Ecut": 10.0,
+    "Nkeep": 4000,
+    "Nkeep_early": 48000,
+    "n_early": 6,
+    "Nz": 8,
+    "bins_per_decade": 200,
+    "thermal_window": "log bins below omega0 = T broadened with a linear Gaussian of width T",
+    "broadening_b": 0.3
+  },
+  "nrg_occupation_sweep": {
+    "comment": "occupations n_i(v) for panel (b); one z shift, no spectra",
+    "v_over_gamma": {"start": -25.0, "stop": 5.0, "step": 1.0},
+    "z": [1.0],
+    "Lambda": 16.0,
+    "Ecut": 10.0,
+    "Nkeep": 4000,
+    "Nkeep_early": 48000,
+    "n_early": 6
+  }
+}

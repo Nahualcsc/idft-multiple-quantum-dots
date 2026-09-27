@@ -1,0 +1,37 @@
+{
+  "system": "M = 2 quantum dots without interdot hopping, Fig. 3(a) of the manuscript",
+  "units": "energies in units of gamma, the full level width of each dot (gamma = 2 pi V^2 rho_0); flat conduction band of half-width D = gamma / gamma_over_D",
+  "model": {
+    "U_over_gamma": [4.0, 6.0],
+    "U12_over_gamma": 2.0,
+    "v_over_gamma": -5.0,
+    "T_over_gamma": 1e-05,
+    "gamma_over_D": 0.01,
+    "leads": "each dot coupled to its own reservoir, Gamma = gamma * identity; interaction U_i n_i,up n_i,dn + U_12 n_1 n_2"
+  },
+  "nrg_spectra": {
+    "comment": "production spectra at v = v_over_gamma; nshells = ceil(2 ln(0.5 / (1e-3 T/D)) / ln Lambda) + 2 = 43",
+    "Lambda": 3.0,
+    "Ecut": 10.0,
+    "Nkeep": 6000,
+    "Nkeep_early": 24000,
+    "n_early": 7,
+    "Nz": 8,
+    "bins_per_decade": 200,
+    "linear_factor": 4.0,
+    "linear_eta_factor": 1.0,
+    "linear_nbins": 401,
+    "broadening_b": [0.25, 0.35, 0.5],
+    "reference_b": 0.35
+  },
+  "nrg_occupation_sweep": {
+    "comment": "occupations n_i(v) for panel (b); one z shift, no spectra",
+    "v_over_gamma": {"start": -25.0, "stop": 5.0, "step": 1.0},
+    "z": [1.0],
+    "Lambda": 3.0,
+    "Ecut": 10.0,
+    "Nkeep": 2500,
+    "Nkeep_early": 8000,
+    "n_early": 7
+  }
+}

@@ -1,0 +1,8 @@
+# Tested with Python 3.12.9, numpy 2.3.2, scipy 1.17.1, matplotlib 3.10.9,
+# joblib 1.5.3, tqdm 4.67.1, mpmath 1.3.0.
+numpy>=2.0        # np.trapezoid
+scipy>=1.8
+matplotlib>=3.5
+joblib>=1.2
+tqdm>=4.0
+mpmath>=1.2       # NRG benchmark only

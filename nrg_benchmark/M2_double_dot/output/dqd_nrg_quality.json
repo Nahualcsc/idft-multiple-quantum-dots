@@ -1,0 +1,111 @@
+{
+  "settings": {
+    "Lam": 3.0,
+    "nshells": 43,
+    "Ecut": 10.0,
+    "Nkeep": 6000,
+    "Nkeep_early": 24000,
+    "n_early": 7,
+    "T": 1.0000000000000001e-07
+  },
+  "Nz": 8,
+  "zs": [
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "run_name": "production",
+  "n_nrg": [
+    1.1899860145882448,
+    0.973807410050263
+  ],
+  "n_z_spread": [
+    0.00046461498499472675,
+    0.0001532884789706701
+  ],
+  "dots": {
+    "b025": [
+      {
+        "n_fdm": 1.1899860145882448,
+        "n_from_A": 1.1880377557764015,
+        "integral_A": 1.0001279504588916,
+        "integral_raw": 0.9998926191723067,
+        "raw_max": 0.3023749173990023,
+        "raw_max_omega_over_gamma": -0.028662659548436668,
+        "A_near_zero": 0.29074370277781353,
+        "friedel_zero_T": 0.29079283517966015,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.8,
+        "positive_ImSigma_max_below_1e-3_gamma": 0.0003757500386502198
+      },
+      {
+        "n_fdm": 0.973807410050263,
+        "n_from_A": 0.9754537855396231,
+        "integral_A": 1.000151247057925,
+        "integral_raw": 0.9998913266587386,
+        "raw_max": 0.3125464773423578,
+        "raw_max_omega_over_gamma": 7.565882873648605e-05,
+        "A_near_zero": 0.3174389110714244,
+        "friedel_zero_T": 0.31777136635038156,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.0,
+        "positive_ImSigma_max_below_1e-3_gamma": -0.0004361479263611638
+      }
+    ],
+    "b035": [
+      {
+        "n_fdm": 1.1899860145882448,
+        "n_from_A": 1.1874714413068783,
+        "integral_A": 1.0001271537453666,
+        "integral_raw": 0.9996687929552076,
+        "raw_max": 0.30484233507086067,
+        "raw_max_omega_over_gamma": 3.474613707771178e-05,
+        "A_near_zero": 0.29075066267794525,
+        "friedel_zero_T": 0.29079283517966015,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.8125,
+        "positive_ImSigma_max_below_1e-3_gamma": 0.0002908882390350231
+      },
+      {
+        "n_fdm": 0.973807410050263,
+        "n_from_A": 0.9758652034273788,
+        "integral_A": 1.0001482702961315,
+        "integral_raw": 0.9996660946588524,
+        "raw_max": 0.33117456548020036,
+        "raw_max_omega_over_gamma": 3.375901353682697e-05,
+        "A_near_zero": 0.3174526819345795,
+        "friedel_zero_T": 0.31777136635038156,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.0,
+        "positive_ImSigma_max_below_1e-3_gamma": -0.0004644349613085905
+      }
+    ],
+    "b050": [
+      {
+        "n_fdm": 1.1899860145882448,
+        "n_from_A": 1.1863265211935954,
+        "integral_A": 1.0001258995299138,
+        "integral_raw": 0.9991884749122446,
+        "raw_max": 0.32404234923043573,
+        "raw_max_omega_over_gamma": 3.279993377193905e-05,
+        "A_near_zero": 0.2907500064026493,
+        "friedel_zero_T": 0.29079283517966015,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.8765625,
+        "positive_ImSigma_max_below_1e-3_gamma": 0.00023192241760678478
+      },
+      {
+        "n_fdm": 0.973807410050263,
+        "n_from_A": 0.976705996801485,
+        "integral_A": 1.0001435090612771,
+        "integral_raw": 0.9991820949170573,
+        "raw_max": 0.3533453467981222,
+        "raw_max_omega_over_gamma": 3.279993377193905e-05,
+        "A_near_zero": 0.3174854425528016,
+        "friedel_zero_T": 0.31777136635038156,
+        "positive_ImSigma_fraction_below_1e-3_gamma": 0.0,
+        "positive_ImSigma_max_below_1e-3_gamma": -0.0004397093460127537
+      }
+    ]
+  }
+}

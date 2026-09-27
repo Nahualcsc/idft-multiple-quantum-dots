@@ -1,0 +1,29 @@
+# M = 2 (Fig. 3a): NRG occupations at v = -5, T = 1e-5 (units of gamma), Lambda = 3, Ecut = 10, n_early = 7,
+# versus the kept states (Nkeep; Nkeep_early in the first n_early shells) and the discretisation shift z.
+# run = spectral: full FDM run; occupations_only: thermodynamic run (no spectra).
+# The archived spectra are the Nkeep = 6000 / 24000 production run (z average n1 = 1.18999, n2 = 0.97381);
+# occupations-only runs at z = 0.125, 0.25, 1 with the same truncation gave bit-identical values.
+Nkeep,Nkeep_early,z,n1,n2,run
+2500,8000,0.1250,1.1919399920,0.9720810191,spectral
+2500,8000,0.2500,1.1908745414,0.9729935545,spectral
+2500,8000,0.3750,1.1909920217,0.9726526092,spectral
+2500,8000,0.5000,1.1889762427,0.9733923330,spectral
+2500,8000,0.6250,1.1887823054,0.9739400753,spectral
+2500,8000,0.7500,1.1891785063,0.9738881811,spectral
+2500,8000,0.8750,1.1893788930,0.9738772417,spectral
+2500,8000,1.0000,1.1892915044,0.9738230503,spectral
+4000,16000,0.1250,1.1899189863,0.9765649469,occupations_only
+4000,16000,0.2500,1.1903354752,0.9737400666,occupations_only
+4000,16000,1.0000,1.1898304389,0.9738258863,occupations_only
+5000,20000,0.1250,1.1924679589,0.9726159343,occupations_only
+5000,20000,0.2500,1.1898854058,0.9734302826,occupations_only
+5000,20000,1.0000,1.1897868555,0.9738225030,occupations_only
+6000,24000,0.1250,1.1899851706,0.9737290070,spectral_production
+6000,24000,0.2500,1.1902626711,0.9737573607,spectral_production
+6000,24000,0.3750,1.1900856407,0.9738822955,spectral_production
+6000,24000,0.5000,1.1900657054,0.9737942458,spectral_production
+6000,24000,0.6250,1.1899871045,0.9738091680,spectral_production
+6000,24000,0.7500,1.1898653938,0.9738102268,spectral_production
+6000,24000,0.8750,1.1898383745,0.9738267500,spectral_production
+6000,24000,1.0000,1.1897980562,0.9738502266,spectral_production
+7000,28000,0.1250,1.1872970854,0.9745598746,occupations_only
