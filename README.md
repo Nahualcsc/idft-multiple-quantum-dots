@@ -39,7 +39,7 @@ benchmark calculations for the Kondo-regime spectra.
 ## Quick start
 
 ```bash
-git clone https://github.com/<user>/idft-multiple-quantum-dots.git
+git clone https://github.com/Nahualcsc/idft-multiple-quantum-dots.git
 cd idft-multiple-quantum-dots
 pip install -r requirements.txt
 python examples/quickstart.py      # < 1 s: Kondo spectra of a double dot
